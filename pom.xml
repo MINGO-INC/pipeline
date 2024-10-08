@@ -172,6 +172,14 @@
                             <mainClass>dat.Main</mainClass> <!-- Update this with your main class -->
                         </transformer>
                     </transformers>
+                    <Filters>
+                        <excludes>
+                        <exclude>module- info.class </exclude>
+                        <exclude>META-INF/*.SF </exclude>
+                        <exclude>META-INF/*.DSA </exclude>
+                        <exclude>META-INF/*.RSA </exclude>
+                        </excludes>
+                    </Filters>
                 </configuration>
                 <executions>
                     <execution>
